@@ -1,0 +1,21 @@
+# systolic_accel -- keep RTL, TB, vectors, scripts, docs. Exclude generated output.
+_build/
+xsim.dir/
+*.jou
+*.log
+*.pb
+*.wdb
+*.vcd
+*.str
+.Xil/
+webtalk*
+training/**/*.pth
+training/**/*.pt
+training/**/data/
+__pycache__/
+.ipynb_checkpoints/
+
+clockInfo.txt
+*.backup.log
+*.backup.jou
+filelist_abs.f
